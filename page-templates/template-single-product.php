@@ -543,7 +543,7 @@ $theme_url = get_template_directory_uri();
                             <img class="position-absolute product-item__hover-image"
                                 src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
-                        </a>
+                         </a>
                         <div class="d-flex flex-column position-absolute bottom-0 pb-3 pe-3">
                             <span class="product-item__offer product-item__offer--price  p-1 px-2">
                                 <del class="product-item__regular-price">£26.60 <del>
