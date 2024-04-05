@@ -19,6 +19,9 @@
 </head>
 
 <body>
+  <?php
+      $theme_url = get_template_directory_uri();
+    ?>
     <header class="header sticky-top">
         <div class="header__top-section">
             <div class="container header__inner">
@@ -42,10 +45,10 @@
                              rounded-0 btn btn-blue text-white header__join-btn">
                             <span class="header__icon">
                                 <img class="header__image-join"
-                                src="<?php echo get_template_directory_uri(); ?>/assests/image/svg/mouse.svg"
+                                src="<?php echo $theme_url; ?>/assests/img/mouse.svg"
                                  alt="join-icon">
                             </span>
-                            <span class="header__text text-uppercase  ">
+                            <span class="header__text text-uppercase">
                                 Ultra Trade - Join Now
                             </span>
                         </a>
@@ -83,7 +86,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg header__navbar">
                     <a class="navbar-brand header__logo" href="#">
-                        <img src="<?php echo get_template_directory_uri();?>/assests/image/svg/logo.svg"
+                        <img src="<?php echo $theme_url;?>/assests/img/logo.svg"
                             alt="logo" class="header__logo-img" >
                     </a>
                     <div class="d-flex d-lg-none justify-content-end
