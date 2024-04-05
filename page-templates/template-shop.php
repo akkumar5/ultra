@@ -2,7 +2,9 @@
 /*
 Template Name:Shop
 */
-get_header();?>
+get_header();
+$theme_url = get_template_directory_uri();
+?>
 
 <style>
 .banner-top__items {
@@ -511,7 +513,7 @@ get_header();?>
             <li class="banner-top__item">
                 <div class="d-flex align-item-center gap-2">
                     <img class="banner-top__img"
-                        src="<?php echo get_template_directory_uri();?>/assests/image/svg/trucks.svg" alt="truck">
+                        src="<?php echo $theme_url;?>/assests/img/trucks.svg" alt="truck">
                     <span class="banner-top__text">
                         Fast Delivery Around The UK
                     </span>
@@ -520,7 +522,7 @@ get_header();?>
             <li class="banner-top__item">
                 <div class="d-flex align-item-center gap-2">
                     <img class="banner-top__img"
-                        src="<?php echo get_template_directory_uri();?>/assests/image/svg/quality.svg" alt="truck">
+                        src="<?php echo $theme_url;?>/assests/img/quality.svg" alt="truck">
                     <span class="banner-top__text">
                         Quality Composite Product
                     </span>
@@ -529,7 +531,7 @@ get_header();?>
             <li class="banner-top__item">
                 <div class="d-flex align-item-center gap-2">
                     <img class="banner-top__img"
-                        src="<?php echo get_template_directory_uri();?>/assests/image/svg/google.svg" alt="truck">
+                        src="<?php echo $theme_url;?>/assests/img/google.svg" alt="truck">
                     <span class="banner-top__text">
                         Rated 4.9 Out Of 5 On Google Reviews
                     </span>
@@ -541,7 +543,7 @@ get_header();?>
 <!-- banner-top end -->
 <!-- banner-common start -->
 <section class="position-relative banner-common"
-    style="background-image:url('https://ultradecking.co.uk/wp-content/uploads/2023/01/Composite-Decking-In-Grey-With-Contrast-Boarder-Composite-Decking-Ideas.jpg')">
+    style="background-image:url('<?php echo $theme_url;?>/assests/img/GreyWood.jpg')">
     <div class="overlay"></div>
     <div class="container banner-common__inner">
         <div class="d-flex justify-content-center align-items-center
@@ -595,10 +597,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -608,7 +610,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -639,10 +641,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -652,7 +654,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -683,10 +685,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -696,7 +698,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -727,10 +729,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -740,7 +742,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -769,7 +771,7 @@ get_header();?>
                 <div class="col-6 col-lg-3 mb-3 mb-lg-0 service-flow__item">
                     <div class="d-flex gap-3 align-items-center">
                         <figure class="service-flow__image">
-                            <img src="<?php echo get_template_directory_uri();?>/assests/image/svg/free-sample-white.svg"
+                            <img src="<?php echo $theme_url;?>/assests/img/free-sample-white.svg"
                                 alt="free sample">
                         </figure>
                         <span class="service-flow__title"> Get 4 Free Samples</span>
@@ -778,7 +780,7 @@ get_header();?>
                 <div class="col-6 col-lg-3 mb-3 mb-lg-0 service-flow__item">
                     <div class="d-flex gap-3 align-items-center">
                         <figure class="service-flow__image">
-                            <img src="<?php echo get_template_directory_uri();?>/assests/image/svg/promise-white.svg"
+                            <img src="<?php echo $theme_url;?>/assests/img/promise-white.svg"
                                 alt="free sample">
                         </figure>
                         <span class="service-flow__title">Price Promise </span>
@@ -787,7 +789,7 @@ get_header();?>
                 <div class="col-6 col-lg-3 mb-3 mb-lg-0 service-flow__item">
                     <div class="d-flex gap-3 align-items-center">
                         <figure class="service-flow__image">
-                            <img src="<?php echo get_template_directory_uri();?>/assests/image/svg/free-delivery-white.svg"
+                            <img src="<?php echo $theme_url;?>/assests/img/free-delivery-white.svg"
                                 alt="free sample">
                         </figure>
                         <span class="service-flow__title"> Free Delivery</span>
@@ -796,7 +798,7 @@ get_header();?>
                 <div class="col-6 col-lg-3 service-flow__item">
                     <div class="d-flex gap-3 align-items-center">
                         <figure class="service-flow__image">
-                            <img src="<?php echo get_template_directory_uri();?>/assests/image/svg/g-review.svg"
+                            <img src="<?php echo $theme_url;?>/assests/img/g-review.svg"
                                 alt="free sample">
                         </figure>
                         <span class="service-flow__title">Highest Industry Review</span>
@@ -817,10 +819,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -830,7 +832,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -861,10 +863,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -874,7 +876,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -905,10 +907,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -918,7 +920,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -949,10 +951,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -962,7 +964,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -993,10 +995,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -1006,7 +1008,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -1037,10 +1039,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -1050,7 +1052,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -1081,10 +1083,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -1094,7 +1096,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -1125,10 +1127,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -1138,7 +1140,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -1175,7 +1177,7 @@ get_header();?>
             </div>
             <div class="col-5 position-relative overflow-hidden cta-banner__column">
                 <div class="cta-banner__img-outer cta-banner__img-outer--small"
-                    style="background-image:url('<?php echo get_template_directory_uri();?>/assests/image/img/buyer-guide.jpg')">
+                    style="background-image:url('<?php echo $theme_url;?>/assests/img/buyer-guide.jpg')">
                 </div>
             </div>
         </div>
@@ -1192,10 +1194,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -1205,7 +1207,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -1236,10 +1238,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -1249,7 +1251,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -1280,10 +1282,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#" tabindex="0">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -1293,7 +1295,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -1322,7 +1324,7 @@ get_header();?>
 <!-- ukproducts end -->
 <!-- category-details start -->
 <section class="position-relative category-details"
-    style="background-image:url('https://ultradecking.co.uk/wp-content/uploads/2024/03/Composite-Decking-In-Grey-Wood-Grain-With-Woven-Garden-Furniture-1.jpg')">
+    style="background-image:url('<?php echo $theme_url;?>/assests/img/GreyWood.jpg')">
     <div class="overlay overlay--60"></div>
     <div class="container  category-details__inner">
         <div class="col-md-11 mx-auto position-relative text-center text-white category-details__contents">
@@ -1349,7 +1351,7 @@ get_header();?>
         <div class="row bg-white text-center category-description__row">
             <div class="col-md-6 category-description__column">
                 <div class="category-description__outer-img"
-                    style="background-image:url('https://ultradecking.co.uk/wp-content/uploads/2022/12/Garden-Decking-Ideas-With-Hot-Tub-and-Grey-Decking.webp');">
+                    style="<?php echo $theme_url;?>/assests/img/GreyWood.jpg');">
                 </div>
             </div>
             <div class="col-md-6 category-description__column">
@@ -1382,7 +1384,7 @@ get_header();?>
         <div class="row bg-white flex-row-reverse  text-center category-description__row">
             <div class="col-md-6 category-description__column">
                 <div class="category-description__outer-img"
-                    style="background-image:url('https://ultradecking.co.uk/wp-content/uploads/2022/12/Modern-Garden-Ideas-Brown-Decking-Ideas-With-Accessories.webp');">
+                    style="background-image:url('<?php echo $theme_url;?>/assests/img/GreyWood.jpg');">
                 </div>
             </div>
             <div class="col-md-6 category-description__column">
@@ -1412,7 +1414,7 @@ get_header();?>
         <div class="row bg-white text-center category-description__row">
             <div class="col-md-6 category-description__column">
                 <div class="category-description__outer-img"
-                    style="background-image:url('https://ultradecking.co.uk/wp-content/uploads/2022/12/Signature-Teak-Composite-Decking-With-Flower-and-Plants.webp');">
+                    style="background-image:url('<?php echo $theme_url;?>/assests/img/GreyWood.jpg');">
                 </div>
             </div>
             <div class="col-md-6 category-description__column">
@@ -1464,7 +1466,7 @@ get_header();?>
                             <div class="top-table__content">
                                 <div class="top-table__image-outer top-table__image-outer--round">
                                     <img class="top-table__image top-table__image--round"
-                                        src="https://ultradecking.co.uk/wp-content/uploads/2022/08/UltraDecking-Logo.jpg.webp"
+                                        src="<?php echo $theme_url;?>/assests/img/UltraDecking-Logo.webp"
                                         alt="logo" />
                                 </div>
                                 <div class="top-table__heading">
@@ -1476,7 +1478,7 @@ get_header();?>
                             <div class="top-table__content">
                                 <div class="top-table__image-outer">
                                     <img class="top-table__image"
-                                        src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Black-Composite-Decking-Board-Dimensions-3.6m-150mm-25mm-Reverisble-Grooved-Boards-Anti-Slip-150x150-1.jpg.webp"
+                                        src="<?php echo $theme_url;?>/assests/img/Boards-Anti-Slip.webp"
                                         alt="decking" />
                                 </div>
                                 <div class="top-table__heading">
@@ -1488,7 +1490,7 @@ get_header();?>
                             <div class="top-table__content">
                                 <div class="top-table__image-outer">
                                     <img class="top-table__image"
-                                        src="https://ultradecking.co.uk/wp-content/uploads/2019/05/Grey-Composite-Decking-Board-Dimensions-3.6m-140mm-25mm-Reverisble-Deep-Emboosed-Wood-Grain-Boards-Slip-Scratch-Resistant-1.jpg.webp"
+                                        src="<?php echo $theme_url;?>/assests/img/Scratch-Resistant.webp"
                                         alt="Grey-Composite" />
                                 </div>
                                 <div class="top-table__heading">
@@ -1500,7 +1502,7 @@ get_header();?>
                             <div class="top-table__content">
                                 <div class="top-table__image-outer">
                                     <img class="top-table__image"
-                                        src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Composite-Decking-Board-Colour-IPE-exclusive-to-Ultra-Decking-Dimensions-3.6m-150x150-1.jpg.webp"
+                                        src="<?php echo $theme_url;?>/assests/img/Board-Colour-IPE.webp"
                                         alt="" />
                                 </div>
                                 <div class="top-table__heading">
@@ -1512,7 +1514,7 @@ get_header();?>
                             <div class="top-table__content">
                                 <div class="top-table__image-outer">
                                     <img class="top-table__image"
-                                        src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Signature-Dual-Colour-Grey-Composite-Decking-By-Ultra-Decking.jpg.webp"
+                                        src="<?php echo $theme_url;?>/assests/img/Ultra-Decking.webp"
                                         alt="" />
                                 </div>
                                 <div class="top-table__heading">

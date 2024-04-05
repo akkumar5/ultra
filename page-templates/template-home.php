@@ -2,7 +2,11 @@
 /*
 Template Name:Home
 */
-get_header();?>
+get_header();
+
+$site_url = site_url();
+$theme_url = get_template_directory_uri();
+?>
 
 <section class="position-relative banner">
     <div class="overlay"></div>
@@ -45,7 +49,7 @@ get_header();?>
         <div class="row intro__row intro__row--category mb-4">
             <div class="col-12 intro__cat-box">
                 <div class="position-relative overflow-hidden intro_cat-content intro_cat-content--first"
-                    style="background-image:url(<?php echo site_url(); ?>/wp-content/uploads/2023/06/Composite-Decking-In-Grey-Wood-Grain-Finish.jpg)">
+                    style="background-image:url(<?php echo $theme_url; ?>/assests/img/GreyWood.jpg">
                     <div class="position-absolute text-white text-center intro__box-centent">
                         <div class="position-relative d-flex flex-column gap-4 justify-content-center
                                 align-items-center intro__front-flip">
@@ -90,7 +94,7 @@ get_header();?>
         <div class="row intro__row intro__row--category">
             <div class="col-12 col-lg-4 intro__cat-box mb-4">
                 <div class="position-relative overflow-hidden intro_cat-content intro_cat-content--small-box"
-                    style="background-image:url(<?php echo site_url(); ?>/wp-content/uploads/2023/06/Composite-Decking-In-Grey-Wood-Grain-Finish.jpg)">
+                    style="background-image:url(<?php echo $theme_url; ?>/assests/img/GreyWood.jpg)">
 
                     <div class="position-absolute text-white text-center intro__box-centent">
                         <div class="position-relative d-flex flex-column gap-4 justify-content-center
@@ -127,7 +131,7 @@ get_header();?>
             </div>
             <div class="col-12 col-lg-4  intro__cat-box mb-4">
                 <div class="position-relative overflow-hidden intro_cat-content intro_cat-content--small-box"
-                    style="background-image:url(<?php echo site_url(); ?>/wp-content/uploads/2023/06/Composite-Decking-In-Grey-Wood-Grain-Finish.jpg)">
+                    style="background-image:url(<?php echo $theme_url; ?>/assests/img/GreyWood.jpg)">
 
                     <div class="position-absolute text-white text-center intro__box-centent">
                         <div class="position-relative d-flex flex-column gap-4 justify-content-center
@@ -163,7 +167,7 @@ get_header();?>
             </div>
             <div class="col-12 col-lg-4 intro__cat-box">
                 <div class="position-relative overflow-hidden intro_cat-content intro_cat-content--small-box"
-                    style="background-image:url(<?php echo site_url(); ?>/wp-content/uploads/2023/06/Composite-Decking-In-Grey-Wood-Grain-Finish.jpg)">
+                    style="background-image:url(<?php echo $theme_url; ?>/assests/img/GreyWood.jpg)">
                     <div class="position-absolute text-white text-center intro__box-centent">
                         <div class="position-relative d-flex flex-column gap-4 justify-content-center
                                 align-items-center intro__front-flip">
@@ -214,7 +218,7 @@ get_header();?>
                         <div class="col-6">
                             <figure class="position-relative why-choose__image">
                                 <img class="why-choose__src"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/img/solid-decking-boards.jpg"
+                                    src="<?php echo $theme_url;?>/assests/img/solid-decking-boards.jpg"
                                     alt="Solid Decking Boards">
                                 <figcaption class="position-absolute text-white why-choose__caption">
                                     Solid Decking Boards
@@ -224,7 +228,7 @@ get_header();?>
                         <div class="col-6">
                             <figure class="position-relative why-choose__image">
                                 <img class="why-choose__src"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/img/solid-decking-boards.jpg"
+                                    src="<?php echo $theme_url;?>/assests/img/solid-decking-boards.jpg"
                                     alt="Solid Decking Boards">
                                 <figcaption class="position-absolute text-white why-choose__caption">
                                     Solid Decking Boards
@@ -251,7 +255,7 @@ get_header();?>
                     <div class="col-6">
                         <figure class="position-relative why-choose__image">
                             <img class="why-choose__src"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/solid-decking-boards.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/solid-decking-boards.jpg"
                                 alt="Solid Decking Boards">
                             <figcaption class="position-absolute text-white why-choose__caption">
                                 Solid Decking Boards
@@ -261,7 +265,7 @@ get_header();?>
                     <div class="col-6">
                         <figure class="position-relative why-choose__image">
                             <img class="why-choose__src"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/solid-decking-boards.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/solid-decking-boards.jpg"
                                 alt="Solid Decking Boards">
                             <figcaption class="position-absolute text-white why-choose__caption">
                                 Solid Decking Boards
@@ -289,7 +293,7 @@ get_header();?>
             <div class="col-6 col-lg-3 mb-3 mb-lg-0 service-flow__item">
                 <div class="d-flex gap-3 align-items-center">
                     <figure class="service-flow__image">
-                        <img src="<?php echo get_template_directory_uri();?>/assests/image/svg/free-sample.svg"
+                        <img src="<?php echo $theme_url;?>/assests/img/free-sample.svg"
                             alt="free sample">
                     </figure>
                     <span class="service-flow__title"> Get 4 Free Samples</span>
@@ -298,7 +302,7 @@ get_header();?>
             <div class="col-6 col-lg-3 mb-3 mb-lg-0 service-flow__item">
                 <div class="d-flex gap-3 align-items-center">
                     <figure class="service-flow__image">
-                        <img src="<?php echo get_template_directory_uri();?>/assests/image/svg/promise.svg"
+                        <img src="<?php echo $theme_url;?>/assests/img/promise.svg"
                             alt="free sample">
                     </figure>
                     <span class="service-flow__title">Price Promise </span>
@@ -307,7 +311,7 @@ get_header();?>
             <div class="col-6 col-lg-3 mb-3 mb-lg-0 service-flow__item">
                 <div class="d-flex gap-3 align-items-center">
                     <figure class="service-flow__image">
-                        <img src="<?php echo get_template_directory_uri();?>/assests/image/svg/free-delivery.svg"
+                        <img src="<?php echo $theme_url;?>/assests/img/free-delivery.svg"
                             alt="free sample">
                     </figure>
                     <span class="service-flow__title"> Free Delivery</span>
@@ -316,7 +320,7 @@ get_header();?>
             <div class="col-6 col-lg-3 service-flow__item">
                 <div class="d-flex gap-3 align-items-center">
                     <figure class="service-flow__image">
-                        <img src="<?php echo get_template_directory_uri();?>/assests/image/svg/g-review.svg"
+                        <img src="<?php echo $theme_url;?>/assests/img/g-review.svg"
                             alt="free sample">
                     </figure>
                     <span class="service-flow__title">Highest Industry Review</span>
@@ -350,10 +354,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -363,7 +367,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -394,10 +398,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -407,7 +411,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -438,10 +442,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -451,7 +455,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -482,10 +486,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -495,7 +499,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -526,10 +530,10 @@ get_header();?>
                         </div>
                         <a class="d-block position-relative product-item__img-cover" href="#">
                             <img class="product-item__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/product-img1.png"
+                                src="<?php echo $theme_url;?>/assests/img/product-img1.png"
                                 alt="img-slide">
                             <img class="position-absolute product-item__hover-image"
-                                src="https://ultradecking.co.uk/wp-content/uploads/2019/02/Teak-Composite-Decking-Mixed-Colours-Anti-Fade-Stain-Slip.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/Anti-Fade-Stain-Slip.jpg"
                                 alt="img-slide">
                         </a>
                         <div class="d-flex position-absolute bottom-0 pb-3 pe-3 w-100 justify-content-between
@@ -539,7 +543,7 @@ get_header();?>
                             </span>
                             <span class="product-item__review d-flex align-items-center justify-centent-end">
                                 <img class="me-1"
-                                    src="<?php echo get_template_directory_uri();?>/assests/image/svg/product-review.svg"
+                                    src="<?php echo $theme_url;?>/assests/img/product-review.svg"
                                     alt="review"> (2)
                             </span>
                         </div>
@@ -570,13 +574,13 @@ get_header();?>
         <div class="row ultratrade-boxes__items">
             <div class="col-md-6 ultratrade-boxes__column">
                 <div class="position-relative text-white ultratrade-boxes__item"
-                    style="background-image:url('https://ultradecking.co.uk/wp-content/uploads/2023/01/Composite-Decking-Being-Replaced-And-Built-With-Bullnose-Boards-And-Wooden-Joists.jpg')">
+                    style="background-image:url('<?php echo $theme_url?>/assests/img/bg-trade.jpg')">
                     <div class="overlay"></div>
                     <div class="col-10 mx-auto d-flex position-relative flex-column justify-content-center
                     align-items-center gap-3 text-center ultratrade-boxes__content">
                         <h3 class="d-flex align-items-center gap-2 ultratrade-boxes__title">
                             <img class="ultratrade-boxes__logo"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/svg/ultra-trade-logo.svg"
+                                src="<?php echo $theme_url;?>/assests/img/ultra-trade-logo.svg"
                                 alt="Ultra Trade Logo">
                             In The Trade?
                         </h3>
@@ -592,13 +596,13 @@ get_header();?>
             </div>
             <div class="col-md-6 ultratrade-boxes__column">
                 <div class="position-relative text-white ultratrade-boxes__item"
-                    style="background-image:url('https://ultradecking.co.uk/wp-content/uploads/2023/01/Composite-Decking-Being-Replaced-And-Built-With-Bullnose-Boards-And-Wooden-Joists.jpg')">
+                    style="background-image:url('<?php echo $theme_url;?>/assests/img/Wooden-Joists.jpg')">
                     <div class="overlay"></div>
                     <div class="col-10 mx-auto d-flex position-relative flex-column justify-content-center
                     align-items-center gap-3 text-center ultratrade-boxes__content">
                         <h3 class="d-flex align-items-center gap-2 ultratrade-boxes__title">
                             <img class="ultratrade-boxes__logo"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/svg/ultra-trade-logo.svg"
+                                src="<?php echo $theme_url;?>/assests/img/ultra-trade-logo.svg"
                                 alt="Ultra Trade Logo">
                             In The Trade?
                         </h3>
@@ -658,7 +662,7 @@ get_header();?>
             <div class="col-lg-6 installation__column">
                 <div class="p-lg-4 installation__image">
                     <img class="p-3 installation__image-src"
-                        src="<?php echo get_template_directory_uri();?>/assests/image/img/installation.jpg"
+                        src="<?php echo $theme_url;?>/assests/img/installation.jpg"
                         alt="Installation">
                 </div>
             </div>
@@ -672,7 +676,7 @@ get_header();?>
         <div class="row align-items-center buyer-guide__row">
             <div class="col-lg-6 buyer-guide__column">
                 <div class="pe-lg-3 buyer-guide__image">
-                    <img src="<?php echo get_template_directory_uri();?>/assests/image/img/buyer-guide.jpg"
+                    <img src="<?php echo $theme_url;?>/assests/img/guide.jpg"
                         alt="Buyer Guide">
                 </div>
             </div>
@@ -728,7 +732,7 @@ get_header();?>
                     <div class="d-flex flex-column gap-4 text-center bg-white benefits__box-item">
                         <div class="d-flex justify-content-center align-items-center mx-auto benefits__icons">
                             <img class="benefits__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/svg/brushbig.svg"
+                                src="<?php echo $theme_url;?>/assests/img/brushbig.svg"
                                 alt="warranty">
                         </div>
                         <div class="benefits__content">
@@ -749,7 +753,7 @@ get_header();?>
                     <div class="d-flex flex-column gap-4 text-center bg-white benefits__box-item">
                         <div class="d-flex justify-content-center align-items-center mx-auto benefits__icons">
                             <img class="benefits__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/svg/calendar.svg"
+                                src="<?php echo $theme_url;?>/assests/img/calendar.svg"
                                 alt="warranty">
                         </div>
                         <div class="benefits__content">
@@ -770,7 +774,7 @@ get_header();?>
                     <div class="d-flex flex-column gap-4 text-center bg-white benefits__box-item">
                         <div class="d-flex justify-content-center align-items-center mx-auto benefits__icons">
                             <img class="benefits__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/svg/shieldtick1.svg"
+                                src="<?php echo $theme_url;?>/assests/img/shieldtick1.svg"
                                 alt="warranty">
                         </div>
                         <div class="benefits__content">
@@ -790,7 +794,7 @@ get_header();?>
                     <div class="d-flex flex-column gap-4 text-center bg-white benefits__box-item">
                         <div class="d-flex justify-content-center align-items-center mx-auto benefits__icons">
                             <img class="benefits__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/svg/wind2.svg"
+                                src="<?php echo $theme_url;?>/assests/img/wind2.svg"
                                 alt="warranty">
                         </div>
                         <div class="benefits__content">
@@ -834,7 +838,7 @@ get_header();?>
                 <div class="inspired-block__item">
                     <a class="d-block inspired-block__link" href="#">
                         <img class="inspired-block__image"
-                            src="<?php echo get_template_directory_uri();?>/assests/image/img/be-inspried-1.jpg"
+                            src="<?php echo $theme_url;?>/assests/img/be-inspried-1.jpg"
                             alt="Inspired">
                     </a>
                 </div>
@@ -843,7 +847,7 @@ get_header();?>
                 <div class="inspired-block__item">
                     <a class="d-block inspired-block__link" href="#">
                         <img class="inspired-block__image"
-                            src="<?php echo get_template_directory_uri();?>/assests/image/img/be-inspried-1.jpg"
+                            src="<?php echo $theme_url;?>/assests/img/be-inspried-1.jpg"
                             alt="Inspired">
                     </a>
                 </div>
@@ -852,7 +856,7 @@ get_header();?>
                 <div class="inspired-block__item">
                     <a class="d-block inspired-block__link" href="#">
                         <img class="inspired-block__image"
-                            src="<?php echo get_template_directory_uri();?>/assests/image/img/be-inspried-1.jpg"
+                            src="<?php echo $theme_url;?>/assests/img/be-inspried-1.jpg"
                             alt="Inspired">
                     </a>
                 </div>
@@ -887,7 +891,7 @@ get_header();?>
                     <a class="d-flex justify-centent-center flex-column gap-4 blog-showcase__link" href="#">
                         <div class="blog-showcase__image-outer">
                             <img class="blog-showcase__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/be-inspried-1.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/be-inspried-1.jpg"
                                 alt="blog">
                         </div>
                         <div class="text-center blog-showcase__title">
@@ -901,7 +905,7 @@ get_header();?>
                     <a class="d-flex justify-centent-center flex-column gap-4 blog-showcase__link" href="#">
                         <div class="blog-showcase__image-outer">
                             <img class="blog-showcase__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/be-inspried-1.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/be-inspried-1.jpg"
                                 alt="blog">
                         </div>
                         <div class="text-center blog-showcase__title">
@@ -915,7 +919,7 @@ get_header();?>
                     <a class="d-flex justify-centent-center flex-column gap-4 blog-showcase__link" href="#">
                         <div class="blog-showcase__image-outer">
                             <img class="blog-showcase__image"
-                                src="<?php echo get_template_directory_uri();?>/assests/image/img/be-inspried-1.jpg"
+                                src="<?php echo $theme_url;?>/assests/img/be-inspried-1.jpg"
                                 alt="blog">
                         </div>
                         <div class="text-center blog-showcase__title">
@@ -961,7 +965,7 @@ get_header();?>
             <div class="col-12 col-lg-6 shield-technology__column">
                 <div class="d-flex align-items-center justify-content-end shield-technology__outer-image">
                     <img class="shield-technology__image"
-                        src="<?php echo get_template_directory_uri();?>/assests/image/img/shield.png" alt="shield">
+                        src="<?php echo $theme_url;?>/assests/img/shield.png" alt="shield">
                 </div>
             </div>
         </div>

@@ -2,7 +2,10 @@
 /*
 Template Name:Guide
 */
-get_header();?>
+get_header();
+
+$theme_url=get_template_directory_uri();
+?>
 
 <style>
     .guide-sec__image {
@@ -280,7 +283,7 @@ get_header();?>
 
 <!-- banner-common start -->
 <section class="position-relative banner-common"
-    style="background-image:url('https://ultradecking.co.uk/wp-content/uploads/2023/01/Composite-Decking-In-Grey-With-Contrast-Boarder-Composite-Decking-Ideas.jpg')">
+    style="background-image:url('<?php echo $theme_url;?>/assests/img/GreyWood.jpg')">
     <div class="overlay"></div>
     <div class="container banner-common__inner">
         <div class="d-flex justify-content-center align-items-center
@@ -308,7 +311,7 @@ get_header();?>
                 <div class="tip-content d-flex flex-column tip-content--guide">
                     <a class="guide-sec__link" href="#">
                         <div class="guide-sec__image"
-                            style="background-image:url('<?php echo site_url(); ?>/wp-content/uploads/2023/06/Composite-Decking-In-Grey-Wood-Grain-Finish.jpg)');">
+                            style="background-image:url('<?php echo $theme_url;?>/assests/img/GreyWood.jpg');">
                         </div>
                         <div class="guide-sec__content">
                             <h4 class="guide-sec__heading p-4 text-center">
@@ -322,7 +325,7 @@ get_header();?>
                 <div class="tip-content d-flex flex-column tip-content--guide">
                     <a class="guide-sec__link" href="#">
                         <div class="guide-sec__image"
-                            style="background-image:url('<?php echo site_url(); ?>/wp-content/uploads/2023/06/Composite-Decking-In-Grey-Wood-Grain-Finish.jpg)');">
+                            style="background-image:url('<?php echo $theme_url;?>/assests/img/GreyWood.jpg');">
                         </div>
                         <div class="guide-sec__content">
                             <h4 class="guide-sec__heading p-4 text-center">
@@ -337,7 +340,7 @@ get_header();?>
                 <div class="tip-content d-flex flex-column tip-content--guide">
                     <a class="guide-sec__link" href="#">
                         <div class="guide-sec__image"
-                            style="background-image:url('<?php echo site_url(); ?>/wp-content/uploads/2023/06/Composite-Decking-In-Grey-Wood-Grain-Finish.jpg)');">
+                            style="background-image:url('<?php echo $theme_url;?>/assests/img/GreyWood.jpg');">
                         </div>
                         <div class="guide-sec__content">
                             <h4 class="guide-sec__heading p-4 text-center">
@@ -351,7 +354,7 @@ get_header();?>
                 <div class="tip-content d-flex flex-column tip-content--guide">
                     <a class="guide-sec__link" href="#">
                         <div class="guide-sec__image"
-                            style="background-image:url('<?php echo site_url(); ?>/wp-content/uploads/2023/06/Composite-Decking-In-Grey-Wood-Grain-Finish.jpg)');">
+                            style="background-image:url('<?php echo $theme_url;?>/assests/img/GreyWood.jpg');">
                         </div>
                         <div class="guide-sec__content">
                             <h4 class="guide-sec__heading p-4 text-center">
