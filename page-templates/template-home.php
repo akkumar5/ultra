@@ -974,7 +974,8 @@ $theme_url = get_template_directory_uri();
 </section>
 <!-- Shield Technology end -->
 <!-- contact form start -->
-<section class="padding-common position-relative contact-home">
+<section class="padding-common position-relative contact-home"
+  style="background-image:url('<?php echo $theme_url;?>/assests/img/bg-contact.jpg')">
     <div class="overlay"></div>
     <div class="container position-relative contact-home__inner">
         <h2 class="heading text-white mb-4 contact-home__heading">
