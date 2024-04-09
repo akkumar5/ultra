@@ -370,7 +370,7 @@ $theme_url=get_template_directory_uri();
                 </div>
                 <div class="pagination__block nav">
                     <a class="nav__link" href="#">
-                    <span class="nav__icon"> 
+                    <span class="nav__icon">
                         <i class="fa-solid fa-chevron-left"></i>
                     </span> Previous Article</a>
                     <p class="nav__title"> Does Composite Decking Expand and Contract?</p>
