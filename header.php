@@ -62,22 +62,21 @@
                     </div>
                     <div class="col d-none d-lg-block header__cart-section">
                         <div class="d-flex align-items-center gap-3 justify-content-end">
-                            <a href="#"> <i class="fa-solid fa-magnifying-glass"></i>
+                            <a class="js-search" href="#">
+                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </a>
                             <a href="#" class="header__profile-icon">
                                 <i class="fa-regular fa-user"></i>
-
                             </a>
                             <a href="#" class="position-relative header__basket-icon">
                                 <i class="fa-solid fa-basket-shopping"></i>
-
                                 <span
                                     class="d-inline-flex position-absolute bg-primary
                                      text-white align-item-center header__basket-total">1</span>
                             </a>
                             <span class="header__basket-value fw-normal">£22.49</span>
                         </div>
-
+                        
                     </div>
                 </div>
             </div>
@@ -107,7 +106,6 @@
                             <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
                         </button>
                     </div>
-                  
                     <div class="collapse navbar-collapse justify-content-lg-end header__nav-main" id="navbarScroll">
                         <a class="d-lg-none d-block p-5 navbar-brand bg-primary header__moblie-logo" href="#">
                             <img src="https://ultradecking.co.uk/wp-content/themes/ultra-decking/assets/img/Logo-1.webp"
@@ -115,7 +113,7 @@
                         <ul class="navbar-nav header__lists">
                             <li class="nav-item header_navlist dropdown">
                                 <a class="nav-link dropdown-toggle header__nav-link header__nav-link--active"
-                                    aria-current="page" href="#">SHOP
+                                    aria-current="page" href="/shop">SHOP
                                     <span class="header__nav-arrow">
                                         <i class="fa-solid fa-angle-down"></i>
                                     </span>
@@ -127,7 +125,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item header_navlist">
-                                <a class="nav-link header__nav-link" href="#">SHOP TIMBER</a>
+                                <a class="nav-link header__nav-link" href="<?php site_url();?>/product">SHOP TIMBER</a>
                             </li>
                             <li class="nav-item header_navlist">
                                 <a class="nav-link header__nav-link" href="#">ACCESSORIES</a>
@@ -136,10 +134,10 @@
                                 <a class="nav-link header__nav-link" href="#">BE INSPIRED</a>
                             </li>
                             <li class="nav-item header_navlist">
-                                <a class="nav-link header__nav-link" href="#">GUIDE</a>
+                                <a class="nav-link header__nav-link" href="<?php site_url();?>/guide">GUIDE</a>
                             </li>
                             <li class="nav-item header_navlist">
-                                <a class="nav-link header__nav-link" href="#">CONTACT</a>
+                                <a class="nav-link header__nav-link" href="<?php site_url();?>/contact">CONTACT</a>
                             </li>
                             <li class="nav-item header_navlist d-none d-lg-block header_navlist--btn">
                                 <a class="nav-link header__nav-link btn btn-outline-light
